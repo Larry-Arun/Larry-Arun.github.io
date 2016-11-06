@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 百度前端学院-task8小结 · Mia</title><meta name="description" content="百度前端学院-task8小结 - Mia Wang"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="http://fonts.useso.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/iridescentmia" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="https://iridescentmia.github.io/resume/" target="_blank" class="nav-list-link">RESUME</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">百度前端学院-task8小结</h1><div class="post-info">Mar 21, 2016</div><div class="post-content"><p>Hi,又见面了。今天总结的是任务八，使用 HTML 与 CSS 实现类似 BootStrap 的响应式 12 栏网格布局，根据屏幕宽度，元素占的栏数不同。完成基本版本后，我又学习了下scss, 做了一个scss版本。</p>
+<a id="more"></a>
+<p>代码地址：<a href="https://github.com/IridescentMia/IFE-Mia/tree/master/task8-Responsive%20Grid%20System" target="_blank" rel="external">https://github.com/IridescentMia/IFE-Mia/tree/master/task8-Responsive%20Grid%20System</a></p>
+<h4 id="1-CSS3新属性：calc"><a href="#1-CSS3新属性：calc" class="headerlink" title="1. CSS3新属性：calc"></a>1. <strong>CSS3新属性：calc</strong></h4><p>之前就遇到过这样的问题，用100%的宽度减去固定像素的宽度，今天在一瞥别人的代码，竟然遇到它，真是相见恨晚呢。</p>
+<p>【功能】混合各种单位进行运算，如百分比、px、em、rem等</p>
+<p>【示例】<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box</span>&#123; <span class="attribute">border</span>:<span class="number">1px</span> solid <span class="number">#ddd</span>; <span class="attribute">width</span>:<span class="built_in">calc</span>(100%-2px) &#125;</span><br></pre></td></tr></table></figure></p>
+<p>容器宽度加上边框宽度正好100%。</p>
+<p>【参考】<a href="https://www.qianduan.net/calc-at-at-at-page-intelligent-layout/" target="_blank" rel="external">css3 calc()功能小窥</a></p>
+<h4 id="2-CSS3新属性：box-sizing"><a href="#2-CSS3新属性：box-sizing" class="headerlink" title="2. CSS3新属性：box-sizing"></a>2. <strong>CSS3新属性：box-sizing</strong></h4><p>属性值：</p>
+<ul>
+<li>content-box（默认）：border和padding不计算入width之内</li>
+<li>padding-box：padding计算入width内</li>
+<li>border-box：border和padding计算入width之内</li>
+</ul>
+<h4 id="3-CSS3新增选择器"><a href="#3-CSS3新增选择器" class="headerlink" title="3. CSS3新增选择器"></a>3. <strong>CSS3新增选择器</strong></h4><p>在如下的html文档中选中所有class中包含’col-‘的 标签<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"col-md-4 col-sm-6"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"col-md-4 col-sm-6"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"col-md-4 col-sm-12"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>是时候用CSS3强大的选择器了<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-attr">[class*='col-']</span>&#123;&#125;</span><br></pre></td></tr></table></figure></p>
+<p>整理几个实用的属性选择器如下：</p>
+<ol>
+<li>img[alt]：匹配含有alt的img标签</li>
+<li>img[alt=’p’]：匹配alt=’p’的img标签</li>
+<li>img[alt^=’p’]：匹配alt以’p’开头的img标签</li>
+<li>img[alt*=’p’]：匹配alt包含’p’的img标签</li>
+<li>img[alt$=’p’]：匹配alt以’p’结尾的img标签</li>
+</ol>
+<p>伪类选择器：</p>
+<ol>
+<li>li:first-child</li>
+<li>li:last-child</li>
+<li>li:nth-child(2n+3)：从第三个元素开始每2个元素选择1个</li>
+<li>li:not(.a)：没有a类的列表项</li>
+</ol>
+<p>【参考】《响应式Web设计 HTML5和CSS3实战》</p>
+<h4 id="4-SCSS"><a href="#4-SCSS" class="headerlink" title="4. SCSS"></a>4. <strong>SCSS</strong></h4><h6 id="4-1-混合宏-vs-继承-vs-占位符"><a href="#4-1-混合宏-vs-继承-vs-占位符" class="headerlink" title="4.1. 混合宏 vs 继承 vs 占位符"></a>4.1. 混合宏 vs 继承 vs 占位符</h6><ul>
+<li>混合宏：可以传递参数，不会合并相同样式代码</li>
+<li>继承：不能传参，会合并相同样式代码</li>
+<li>占位符：不能传参，只有调用占位符的时候才会在css中生成代码</li>
+</ul>
+<h6 id="4-2-默认变量"><a href="#4-2-默认变量" class="headerlink" title="4.2. 默认变量"></a>4.2. 默认变量</h6><p>在默认变量前声明同名变量，则覆盖默认变量<br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$baseLineHeight</span>: <span class="number">2</span>;</span><br><span class="line"><span class="variable">$baseLineHeight</span>: <span class="number">1.5</span> !default;</span><br><span class="line"><span class="selector-tag">body</span>&#123;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="variable">$baseLineHeight</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>【参考】<a href="http://www.imooc.com/code/7041" target="_blank" rel="external">Sass入门篇</a></p>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/03/22/百度前端学院-task22-Js实现二叉树的遍历/" class="prev">PREV</a><a href="/2016/03/18/百度前端学院-task7小结/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2016 <a href="http://yoursite.com">Mia Wang</a></p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
