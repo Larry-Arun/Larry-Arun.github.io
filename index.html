@@ -40,11 +40,17 @@
 						</h2>
 						<div class="post-info">May 18, 2018</div>
 						<div class="post-content">
-							<p>项目需要实现实时（到现在为止）的日志访问统计操作。</p>
-							<p>项目数据来源的日志为Python脚本产生的，通过crontab定时执行Python脚本模仿服务器日志的产生，
+							<p>需求描述</p>
+							<ul>
+								<li>实现实时（到现在为止）的日志访问统计操作。</li>
+							</ul>
+							<p>项目描述</p>
+							<ul>
+								<li>项目数据来源的日志为Python脚本产生的，通过crontab定时执行Python脚本模仿服务器日志的产生，
 							日志包括ip、time、url、status、referer。然后使用flume采集产生的日志数据并sink到
 							Kafka消息队列中，然后将日志信息传给Spark Streaming进行实时数据处理。最后将计算结果写入
-							到hbase上。</p>
+							到hbase上。</li>
+							</ul>
 						</div>
 						<a href="/project/2018/03/一个Flex布局的实例/" class="read-more">...more</a>
 					</article></li>
@@ -55,15 +61,15 @@
 						</h2>
 						<div class="post-info">May 8, 2018</div>
 						<div class="post-content">
-							<p>统计某视频网站的常规指标，各种TopN指标：视频观看数Top10；视频类别热度Top10；
-							视频观看数Top20所属类别包含这Top20视频的个数；视频观看数Top50所关联视频的所属类别Rank；
-							每个类别中的视频热度Top10；每个类别中视频流量Top10；上传视频最多的用户Top10以及他们上传的视频；
-							每个类别视频观看数Top10。</p>
-							<p>目录结构</p>
+							<p>需求描述:统计某视频网站的常规指标，各种TopN指标.</p>
 							<ul>
-								<li>1.mongoDB执行js脚本</li>
-								<li>2.mongoDB大量删除数据空间释放问题</li>
-								<li>3.JavaScript中深复制和浅复制</li>
+								<li>视频观看数Top10；视频类别热度Top10；</li>
+								<li>视频观看数Top20所属类别包含这Top20视频的个数；</li>
+								<li>视频观看数Top50所关联视频的所属类别Rank；</li>
+								<li>每个类别中的视频热度Top10；</li>
+								<li>每个类别中视频流量Top10；</li>
+								<li>上传视频最多的用户Top10以及他们上传的视频；</li>
+								<li>每个类别视频观看数Top10。</li>
 							</ul>
 						</div>
 						<a href="/project/2018/02/SHSubway项目笔记4-mongoDB-JavaScript/"
