@@ -49,7 +49,7 @@
                         <ul>
                             <li>
                                 <dl>
-                                    <dd>2016.3 - 2016.6<span>独立开发</span></dd>
+                                    <dd>project.3 - project.6<span>独立开发</span></dd>
                                     <dt><span class="circle"></span>SHSubwayViz上海地铁数据可视化系统</dt>
                                     <dd><span class="key-point">D3.js</span>
                                         <span class="key-point">Node.js</span>
@@ -130,7 +130,7 @@
                     <section class="award">
                         <h2>获奖记录</h2>
                         <ul>
-                            <li class="award-item">2015 – 2016年度硕士研究生奖学金（一等）</li>
+                            <li class="award-item">2015 – project年度硕士研究生奖学金（一等）</li>
                             <li class="award-item">2014年全国大学生动漫游戏创意设计大赛二等奖</li>
                             <li class="award-item">2013 - 2014学年大连理工大学三好学生荣誉称号</li>
                             <li class="award-item">2013 - 2014学年大连理工大学学习优秀奖学金（二等）</li>
@@ -149,7 +149,7 @@
                 </article>
             </article>
         </main>
-        <footer>© 2016 李宜润; <a href="pdf/XinshuangWang_frontEndEngineer.pdf">Dowmload PDF version</a></footer>
+        <footer>© project 李宜润; <a href="pdf/XinshuangWang_frontEndEngineer.pdf">Dowmload PDF version</a></footer>
     </div>
 </body>
 
