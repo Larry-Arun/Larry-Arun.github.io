@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-03T11:53:57.343Z</updated>
+  <updated>project-07-03T11:53:57.343Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>一个Flex布局的实例</title>
-    <link href="http://yoursite.com/2016/07/03/%E4%B8%80%E4%B8%AAFlex%E5%B8%83%E5%B1%80%E7%9A%84%E5%AE%9E%E4%BE%8B/"/>
-    <id>http://yoursite.com/2016/07/03/一个Flex布局的实例/</id>
-    <published>2016-07-03T11:53:13.000Z</published>
-    <updated>2016-07-03T11:53:57.343Z</updated>
+    <link href="http://yoursite.com/project/2018/03/%E4%B8%80%E4%B8%AAFlex%E5%B8%83%E5%B1%80%E7%9A%84%E5%AE%9E%E4%BE%8B/"/>
+    <id>http://yoursite.com/project/2018/03/一个Flex布局的实例/</id>
+    <published>project-07-03T11:53:13.000Z</published>
+    <updated>project-07-03T11:53:57.343Z</updated>
     
     <content type="html">&lt;p&gt;Flex布局是一种更有效，更灵活布局方式，主要思想就是赋予容器（container）改变内部子项目（items）的宽度、高度或次序，通过子项目的扩展/收缩，以达到最好的利用可用空间的目的。&lt;/p&gt;
 &lt;p&gt;Flex还有一个更重要的特点，它是无方向性的（block是垂直向布局，inline是水平向布局），也因而更灵活。&lt;/p&gt;
@@ -63,10 +63,10 @@
   
   <entry>
     <title>SHSubway项目笔记4-mongoDB+JavaScript</title>
-    <link href="http://yoursite.com/2016/06/20/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B04-mongoDB-JavaScript/"/>
-    <id>http://yoursite.com/2016/06/20/SHSubway项目笔记4-mongoDB-JavaScript/</id>
-    <published>2016-06-20T11:06:19.000Z</published>
-    <updated>2016-06-20T11:06:46.956Z</updated>
+    <link href="http://yoursite.com/project/2018/02/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B04-mongoDB-JavaScript/"/>
+    <id>http://yoursite.com/project/2018/02/SHSubway项目笔记4-mongoDB-JavaScript/</id>
+    <published>project-06-20T11:06:19.000Z</published>
+    <updated>project-06-20T11:06:46.956Z</updated>
     
     <content type="html">&lt;p&gt;目录结构&lt;/p&gt;
 &lt;ul&gt;
@@ -119,10 +119,10 @@
   
   <entry>
     <title>小tips-CSS篇1</title>
-    <link href="http://yoursite.com/2016/06/16/%E5%B0%8Ftips-CSS%E7%AF%871/"/>
-    <id>http://yoursite.com/2016/06/16/小tips-CSS篇1/</id>
-    <published>2016-06-16T13:34:46.000Z</published>
-    <updated>2016-06-16T13:37:49.416Z</updated>
+    <link href="http://yoursite.com/project/2018/01/%E5%B0%8Ftips-CSS%E7%AF%871/"/>
+    <id>http://yoursite.com/project/2018/01/小tips-CSS篇1/</id>
+    <published>project-06-16T13:34:46.000Z</published>
+    <updated>project-06-16T13:37:49.416Z</updated>
     
     <content type="html">&lt;h3 id=&quot;1-block-vs-inline-vs-inline-block&quot;&gt;&lt;a href=&quot;#1-block-vs-inline-vs-inline-block&quot; class=&quot;headerlink&quot; title=&quot;1.block vs inline vs inline-block&quot;&gt;&lt;/a&gt;&lt;strong&gt;1.block vs inline vs inline-block&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;常用的inline元素有：a span img input br select small strong等&lt;/p&gt;
 &lt;p&gt;常用的block元素有：div p h1-h6 form table ul ol等&lt;/p&gt;
@@ -197,10 +197,10 @@
   
   <entry>
     <title>SHSubway项目笔记3-D3+LeafLet绘图</title>
-    <link href="http://yoursite.com/2016/05/27/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B03-D3-LeafLet%E7%BB%98%E5%9B%BE/"/>
-    <id>http://yoursite.com/2016/05/27/SHSubway项目笔记3-D3-LeafLet绘图/</id>
-    <published>2016-05-27T13:29:18.000Z</published>
-    <updated>2016-05-27T13:32:40.603Z</updated>
+    <link href="http://yoursite.com/project/05/27/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B03-D3-LeafLet%E7%BB%98%E5%9B%BE/"/>
+    <id>http://yoursite.com/project/05/27/SHSubway项目笔记3-D3-LeafLet绘图/</id>
+    <published>project-05-27T13:29:18.000Z</published>
+    <updated>project-05-27T13:32:40.603Z</updated>
     
     <content type="html">&lt;p&gt;最近又把之前读的论文找出来重读，寄希望在反复阅读中能找到灵感，这个过程有点难过，就像刚刚接触一样东西，盲人摸象一样，好像知道它大概是个什么，又深觉不得要领。&lt;/p&gt;
 &lt;p&gt;而读论文又不像写代码，可以明确的知道写了多少行，做了什么效果。成果很难衡量，所以最近常常苦恼。&lt;/p&gt;
@@ -223,12 +223,12 @@
 &lt;p&gt;这里补充说明一点，当circle元素的cx, cy未设置的时候，circle的圆心在页面的坐标原点上。&lt;/p&gt;
 &lt;p&gt;其实，latLngToLayerPoint是相对于页面的原点偏移的，即不需要设置cx, cy即可，所以我相当于在精确位置上，多加了cx, cy，当地图很大的时候，这个值微乎其微；而当地图缩到很小的时候，就严重偏移了。去掉上面代码中注释的两个attr就恢复正常了。&lt;/p&gt;
 &lt;h3 id=&quot;2-JavaScript的Date对象，加上一段时间&quot;&gt;&lt;a href=&quot;#2-JavaScript的Date对象，加上一段时间&quot; class=&quot;headerlink&quot; title=&quot;2.JavaScript的Date对象，加上一段时间&quot;&gt;&lt;/a&gt;&lt;strong&gt;2.JavaScript的Date对象，加上一段时间&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;如题，我想在下面time上增加一小时&lt;/p&gt;
-&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; time = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;2016 5 27 22:20:00 +0800&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(time); &lt;span class=&quot;comment&quot;&gt;//Fri May 27 2016 22:20:00 GMT+0800 (中国标准时间)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; time = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;project 5 27 22:20:00 +0800&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(time); &lt;span class=&quot;comment&quot;&gt;//Fri May 27 project 22:20:00 GMT+0800 (中国标准时间)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;于是，我就想到了这样：&lt;/p&gt;
-&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; time = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;2016 5 27 22:20:00 +0800&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(time + &lt;span class=&quot;number&quot;&gt;3600000&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// Fri May 27 2016 22:20:00 GMT+0800 (中国标准时间)3600000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;如你所见，它真的就在末尾加了3600000ms ，输出了这样一串 Fri May 27 2016 22:20:00 GMT+0800 (中国标准时间)3600000&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; time = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;project 5 27 22:20:00 +0800&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(time + &lt;span class=&quot;number&quot;&gt;3600000&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// Fri May 27 project 22:20:00 GMT+0800 (中国标准时间)3600000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;如你所见，它真的就在末尾加了3600000ms ，输出了这样一串 Fri May 27 project 22:20:00 GMT+0800 (中国标准时间)3600000&lt;/p&gt;
 &lt;p&gt;搜了一下这个问题，解决办法如下：&lt;/p&gt;
-&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; time = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;2016 5 27 22:20:00 +0800&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(time.getTime() + &lt;span class=&quot;number&quot;&gt;3600000&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// 1464362400000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(time.getTime() + &lt;span class=&quot;number&quot;&gt;3600000&lt;/span&gt;)); &lt;span class=&quot;comment&quot;&gt;// Fri May 27 2016 23:20:00 GMT+0800 (中国标准时间)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; time = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;project 5 27 22:20:00 +0800&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(time.getTime() + &lt;span class=&quot;number&quot;&gt;3600000&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// 1464362400000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;(time.getTime() + &lt;span class=&quot;number&quot;&gt;3600000&lt;/span&gt;)); &lt;span class=&quot;comment&quot;&gt;// Fri May 27 project 23:20:00 GMT+0800 (中国标准时间)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;3-line-chart的转折点的光滑处理&quot;&gt;&lt;a href=&quot;#3-line-chart的转折点的光滑处理&quot; class=&quot;headerlink&quot; title=&quot;3.line chart的转折点的光滑处理&quot;&gt;&lt;/a&gt;&lt;strong&gt;3.line chart的转折点的光滑处理&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;先看一下对比图&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://o77yvgv4e.bkt.clouddn.com/160527sharp.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://o77yvgv4e.bkt.clouddn.com/160527smooth.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;原生的图转折点很锋利，而D3中圆滑化处理也很方便，只需要加.interpolate(“basis”)，如下：&lt;/p&gt;
@@ -259,10 +259,10 @@
   
   <entry>
     <title>SHSubway项目笔记2-mongoDB+node.js边用边学</title>
-    <link href="http://yoursite.com/2016/05/20/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B02-mongoDB-node-js%E8%BE%B9%E7%94%A8%E8%BE%B9%E5%AD%A6/"/>
-    <id>http://yoursite.com/2016/05/20/SHSubway项目笔记2-mongoDB-node-js边用边学/</id>
-    <published>2016-05-20T11:36:00.000Z</published>
-    <updated>2016-06-24T01:49:23.698Z</updated>
+    <link href="http://yoursite.com/project/05/20/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B02-mongoDB-node-js%E8%BE%B9%E7%94%A8%E8%BE%B9%E5%AD%A6/"/>
+    <id>http://yoursite.com/project/05/20/SHSubway项目笔记2-mongoDB-node-js边用边学/</id>
+    <published>project-05-20T11:36:00.000Z</published>
+    <updated>project-06-24T01:49:23.698Z</updated>
     
     <content type="html">&lt;p&gt;从五一假期回来到今天5月20号，从node.js和mongoDB的小白，到现在基本完成了第一步的目标。截图留念。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://o77yvgv4e.bkt.clouddn.com/0520.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -335,10 +335,10 @@
   
   <entry>
     <title>SHSubway项目笔记-mongoDB+node.js边用边学</title>
-    <link href="http://yoursite.com/2016/05/17/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0-mongoDB-node-js%E8%BE%B9%E7%94%A8%E8%BE%B9%E5%AD%A6/"/>
-    <id>http://yoursite.com/2016/05/17/SHSubway项目笔记-mongoDB-node-js边用边学/</id>
-    <published>2016-05-17T13:13:41.000Z</published>
-    <updated>2016-05-17T13:14:26.959Z</updated>
+    <link href="http://yoursite.com/project/05/17/SHSubway%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0-mongoDB-node-js%E8%BE%B9%E7%94%A8%E8%BE%B9%E5%AD%A6/"/>
+    <id>http://yoursite.com/project/05/17/SHSubway项目笔记-mongoDB-node-js边用边学/</id>
+    <published>project-05-17T13:13:41.000Z</published>
+    <updated>project-05-17T13:14:26.959Z</updated>
     
     <content type="html">&lt;p&gt;最近在用mongoDB搭建可视化系统的数据库，记录一下使用过程中解决的问题&lt;/p&gt;
 &lt;p&gt;目录结构：&lt;/p&gt;
@@ -431,10 +431,10 @@
   
   <entry>
     <title>Cookie简介及相关操作</title>
-    <link href="http://yoursite.com/2016/05/15/Cookie%E7%AE%80%E4%BB%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
-    <id>http://yoursite.com/2016/05/15/Cookie简介及相关操作/</id>
-    <published>2016-05-15T13:29:28.000Z</published>
-    <updated>2016-05-15T13:39:32.128Z</updated>
+    <link href="http://yoursite.com/project/05/15/Cookie%E7%AE%80%E4%BB%8B%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/project/05/15/Cookie简介及相关操作/</id>
+    <published>project-05-15T13:29:28.000Z</published>
+    <updated>project-05-15T13:39:32.128Z</updated>
     
     <content type="html">&lt;p&gt;今天来介绍下Cookie的相关知识及操作，包括设置Cookie的设置，读取和删除等。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -482,10 +482,10 @@
   
   <entry>
     <title>地图坐标体系介绍及其互转工具</title>
-    <link href="http://yoursite.com/2016/05/14/%E5%9C%B0%E5%9B%BE%E5%9D%90%E6%A0%87%E4%BD%93%E7%B3%BB%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E4%BA%92%E8%BD%AC%E5%B7%A5%E5%85%B7/"/>
-    <id>http://yoursite.com/2016/05/14/地图坐标体系介绍及其互转工具/</id>
-    <published>2016-05-14T12:06:53.000Z</published>
-    <updated>2016-05-14T12:07:43.912Z</updated>
+    <link href="http://yoursite.com/project/05/14/%E5%9C%B0%E5%9B%BE%E5%9D%90%E6%A0%87%E4%BD%93%E7%B3%BB%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E4%BA%92%E8%BD%AC%E5%B7%A5%E5%85%B7/"/>
+    <id>http://yoursite.com/project/05/14/地图坐标体系介绍及其互转工具/</id>
+    <published>project-05-14T12:06:53.000Z</published>
+    <updated>project-05-14T12:07:43.912Z</updated>
     
     <content type="html">&lt;p&gt;今天在用leaflet的时候发现，手头数据的经纬度坐标是基于百度地图体系的，在leaflet中用openstreetmap会有很大的偏移，解决了偏移问题，顺便了解了一下不同地图使用的坐标体系，整理如下：&lt;/p&gt;
 &lt;p&gt;先说一说现有的坐标体系：&lt;/p&gt;
@@ -527,10 +527,10 @@
   
   <entry>
     <title>JavaScript中的正则表达式</title>
-    <link href="http://yoursite.com/2016/05/08/JavaScript%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>http://yoursite.com/2016/05/08/JavaScript中的正则表达式/</id>
-    <published>2016-05-08T08:56:26.000Z</published>
-    <updated>2016-05-16T08:23:25.947Z</updated>
+    <link href="http://yoursite.com/project/05/08/JavaScript%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>http://yoursite.com/project/05/08/JavaScript中的正则表达式/</id>
+    <published>project-05-08T08:56:26.000Z</published>
+    <updated>project-05-16T08:23:25.947Z</updated>
     
     <content type="html">&lt;p&gt;最近一直用到正则表达式，今天跟着教程系统学习了一下，整理笔记如下：&lt;/p&gt;
 &lt;h3 id=&quot;1-字符串操作函数&quot;&gt;&lt;a href=&quot;#1-字符串操作函数&quot; class=&quot;headerlink&quot; title=&quot;1.字符串操作函数&quot;&gt;&lt;/a&gt;&lt;strong&gt;1.字符串操作函数&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;
@@ -621,7 +621,7 @@
 &lt;p&gt;但是此时取出的是上面完整的段落，造成这样的原因是&lt;strong&gt;正则表达式的贪婪性&lt;/strong&gt;，即会取出满足表达式的尽可能长的字符串，于是从段首的“&amp;lt;”开始，一直取到断尾的“&amp;gt;”。&lt;/p&gt;
 &lt;p&gt;正则表达式中 .+ 描述的不准确，并不是“&amp;lt;&amp;gt;”中任何字符都可以出现，其自身就不可以出现，修改正则表达式为：&lt;/p&gt;
 &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; re = &lt;span class=&quot;regexp&quot;&gt;/&amp;lt;[^&amp;lt;&amp;gt;]+&amp;gt;/g&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;———————- 2016年5月16日更新 ———————-&lt;/p&gt;
+&lt;p&gt;———————- project年5月16日更新 ———————-&lt;/p&gt;
 &lt;h3 id=&quot;5-正则表达式中包含变量&quot;&gt;&lt;a href=&quot;#5-正则表达式中包含变量&quot; class=&quot;headerlink&quot; title=&quot;5.正则表达式中包含变量&quot;&gt;&lt;/a&gt;&lt;strong&gt;5.正则表达式中包含变量&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;今天写正则的时候遇到一个问题，我希望得到的正则表达式是下面这样的，其中stations[i]是个字符串变量&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; re = &lt;span class=&quot;regexp&quot;&gt;/.*stations[i]/&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;然而这样写的结果，得到的正则真的是就是原样的 /.*stations[i]/，stations[i]被当成了一个字符串处理了，而不是变量。&lt;/p&gt;
 &lt;p&gt;找到的解决办法是使用JavaScript风格的书写方式，如下：&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; re = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;RegExp&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;.*&quot;&lt;/span&gt;+stations[i]);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -654,10 +654,10 @@
   
   <entry>
     <title>addEventListener vs onclick</title>
-    <link href="http://yoursite.com/2016/03/28/onclick/"/>
-    <id>http://yoursite.com/2016/03/28/onclick/</id>
-    <published>2016-03-28T12:46:01.000Z</published>
-    <updated>2016-03-28T12:49:02.009Z</updated>
+    <link href="http://yoursite.com/project/03/28/onclick/"/>
+    <id>http://yoursite.com/project/03/28/onclick/</id>
+    <published>project-03-28T12:46:01.000Z</published>
+    <updated>project-03-28T12:49:02.009Z</updated>
     
     <content type="html">&lt;p&gt;今天来说一说addEventListener来添加事件和直接添加的区别，下面用“onclick”事件作说明。&lt;/p&gt;
 &lt;p&gt;形式1：element.onclick = function () { }; //等价于内联的事件&lt;br&gt;形式2：element.addEventListener(‘click’, function () { } , false); //最后一个参数控制冒泡事件，为false则阻止事件冒泡。&lt;/p&gt;
@@ -694,10 +694,10 @@
   
   <entry>
     <title>百度前端学院-task22-三步实现二叉树的遍历</title>
-    <link href="http://yoursite.com/2016/03/22/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E5%AD%A6%E9%99%A2-task22-Js%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/"/>
-    <id>http://yoursite.com/2016/03/22/百度前端学院-task22-Js实现二叉树的遍历/</id>
-    <published>2016-03-22T10:44:12.000Z</published>
-    <updated>2016-03-22T13:17:19.380Z</updated>
+    <link href="http://yoursite.com/project/03/22/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E5%AD%A6%E9%99%A2-task22-Js%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/"/>
+    <id>http://yoursite.com/project/03/22/百度前端学院-task22-Js实现二叉树的遍历/</id>
+    <published>project-03-22T10:44:12.000Z</published>
+    <updated>project-03-22T13:17:19.380Z</updated>
     
     <content type="html">&lt;p&gt;今天完成了百度前端技术培训的task22，实现了二叉树的三种遍历办法，并以动画的形式呈现，顺便复习了一下二叉树，学习了flexbox，试用了scss。&lt;/p&gt;
 &lt;p&gt;源码地址：&lt;a href=&quot;https://github.com/IridescentMia/IFE-Mia/tree/gh-pages/task22-Binary%20Tree&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/IridescentMia/IFE-Mia/tree/gh-pages/task22-Binary%20Tree&lt;/a&gt;&lt;/p&gt;
@@ -742,10 +742,10 @@
   
   <entry>
     <title>百度前端学院-task8小结</title>
-    <link href="http://yoursite.com/2016/03/21/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E5%AD%A6%E9%99%A2-task8%E5%B0%8F%E7%BB%93/"/>
-    <id>http://yoursite.com/2016/03/21/百度前端学院-task8小结/</id>
-    <published>2016-03-21T10:50:44.000Z</published>
-    <updated>2016-05-24T06:10:27.993Z</updated>
+    <link href="http://yoursite.com/project/03/21/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E5%AD%A6%E9%99%A2-task8%E5%B0%8F%E7%BB%93/"/>
+    <id>http://yoursite.com/project/03/21/百度前端学院-task8小结/</id>
+    <published>project-03-21T10:50:44.000Z</published>
+    <updated>project-05-24T06:10:27.993Z</updated>
     
     <content type="html">&lt;p&gt;Hi,又见面了。今天总结的是任务八，使用 HTML 与 CSS 实现类似 BootStrap 的响应式 12 栏网格布局，根据屏幕宽度，元素占的栏数不同。完成基本版本后，我又学习了下scss, 做了一个scss版本。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -799,14 +799,14 @@
   
   <entry>
     <title>百度前端学院-task7小结</title>
-    <link href="http://yoursite.com/2016/03/18/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E5%AD%A6%E9%99%A2-task7%E5%B0%8F%E7%BB%93/"/>
-    <id>http://yoursite.com/2016/03/18/百度前端学院-task7小结/</id>
-    <published>2016-03-18T13:03:10.000Z</published>
-    <updated>2016-05-24T06:11:27.212Z</updated>
+    <link href="http://yoursite.com/project/03/18/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E5%AD%A6%E9%99%A2-task7%E5%B0%8F%E7%BB%93/"/>
+    <id>http://yoursite.com/project/03/18/百度前端学院-task7小结/</id>
+    <published>project-03-18T13:03:10.000Z</published>
+    <updated>project-05-24T06:11:27.212Z</updated>
     
     <content type="html">&lt;p&gt;这里是我在&lt;a href=&quot;http://ife.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度前端学院&lt;/a&gt;学习的小结，我负责的部分是任务七中的part3。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;demo: &lt;a href=&quot;http://hellozts4120.github.io/IFE-2016/task1/Project7/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://hellozts4120.github.io/IFE-2016/task1/Project7/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;demo: &lt;a href=&quot;http://hellozts4120.github.io/IFE-project/task1/Project7/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://hellozts4120.github.io/IFE-project/task1/Project7/index.html&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;1-两个并排的inline-block的div之间存在空隙&quot;&gt;&lt;a href=&quot;#1-两个并排的inline-block的div之间存在空隙&quot; class=&quot;headerlink&quot; title=&quot;1. 两个并排的inline-block的div之间存在空隙&quot;&gt;&lt;/a&gt;1. &lt;strong&gt;两个并排的inline-block的div之间存在空隙&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;当两个div的display设置为inline-block时，它们并不会紧紧的相邻，而是出现一个缝隙。&lt;br&gt;&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;div&lt;/span&gt;&amp;#123; &lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: inline-block; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;div1&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;div2&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;【原因】出现这样的间隙，是因为标签段之间的空格&lt;br&gt;【解决办法】&lt;/p&gt;
@@ -872,10 +872,10 @@
   
   <entry>
     <title>SQL处理数据小结</title>
-    <link href="http://yoursite.com/2016/03/14/SQL%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93/"/>
-    <id>http://yoursite.com/2016/03/14/SQL使用小结/</id>
-    <published>2016-03-14T05:59:28.000Z</published>
-    <updated>2016-03-21T11:04:17.063Z</updated>
+    <link href="http://yoursite.com/project/03/14/SQL%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93/"/>
+    <id>http://yoursite.com/project/03/14/SQL使用小结/</id>
+    <published>project-03-14T05:59:28.000Z</published>
+    <updated>project-03-21T11:04:17.063Z</updated>
     
     <content type="html">&lt;p&gt;数据终于处理完了，简直神清气爽，现在想想，整体思路还是比较简单清晰的，只是过程有点艰难，常常让我觉得得多吃点坚果补补脑。以下是整理的这几天解决的问题。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -966,10 +966,10 @@
   
   <entry>
     <title>写在前面</title>
-    <link href="http://yoursite.com/2016/03/08/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
-    <id>http://yoursite.com/2016/03/08/写在前面/</id>
-    <published>2016-03-08T08:13:16.000Z</published>
-    <updated>2016-03-13T02:33:04.026Z</updated>
+    <link href="http://yoursite.com/project/03/08/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    <id>http://yoursite.com/project/03/08/写在前面/</id>
+    <published>project-03-08T08:13:16.000Z</published>
+    <updated>project-03-13T02:33:04.026Z</updated>
     
     <content type="html">&lt;p&gt;欢迎来到Mia的新家，一直想给自己搭个博客，酝酿了好久，终于想记录的东西太多，才开始动手。&lt;/p&gt;
 &lt;p&gt;之前总觉得要学的东西太多，急匆匆的赶路，常常忽略总结和回顾。以后我会在这里和大家分享我的成长。喜欢Litten说的，这里更像是属于自己的一块小小的领地，因而我满足于这种归属感。我愿在上面安静劳作。&lt;/p&gt;
