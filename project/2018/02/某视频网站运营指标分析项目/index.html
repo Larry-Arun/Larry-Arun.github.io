@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="X-UA-Compatible" content="IE=edge">
-<title>纸牌比大小游戏</title>
+<title>某视频网站运营指标分析项目</title>
 <meta name="description" content="一个Flex布局的实例 - Mia Wang">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="short icon" href="/favicon.png">
@@ -35,29 +35,48 @@
 		<section class="container">
 			<div class="post">
 				<article class="post-block">
-					<h1 class="post-title">纸牌比大小游戏</h1>
+					<h1 class="post-title">某视频网站运营指标分析项目</h1>
 					<p>May 8, 2018</p>
 					<div class="post-content">
 						<a id="more"></a>
 						<h3 id="1-属性简介">
 							<a href="#1-属性简介" class="headerlink" title="1.属性简介"></a>开发环境
 						</h3>
-						<p>eclipse+jdk</p>
+						<p>eclipse+maven+jdk+linux</p>
+						<h3 id="1-属性简介">
+							<a href="#1-属性简介" class="headerlink" title="1.属性简介"></a>系统架构
+						</h3>
+						<p>hadoop+zookeeper+hive</p>
+						<h3 id="1-属性简介">
+							<a href="#1-属性简介" class="headerlink" title="1.属性简介"></a>需求描述
+						</h3>
+						<ul>
+							<li>统计视频观看数Top10；视频类别热度Top10；</li>
+							<li>统计视频观看数Top20所属类别包含这Top20视频的个数；</li>
+							<li>统计视频观看数Top50所关联视频的所属类别Rank；</li>
+							<li>统计每个类别中的视频热度Top10；</li>
+							<li>统计每个类别中视频流量Top10；</li>
+							<li>统计上传视频最多的用户Top10以及他们上传的视频；</li>
+							<li>统计每个类别视频观看数Top10。</li>
+						</ul>
 						<h3 id="2-一个实例">
 							<a href="#2-一个实例" class="headerlink" title="2.一个实例"></a>项目描述
 						</h3>
-						<p>
-							先创建一副扑克牌，遍历这副扑克牌将每张牌的花色和大小打印出来，然后对这幅扑克牌进行洗牌，再创建两个玩家，由用户输入玩家ID和姓名。每个玩家发两张牌，比较两个玩家手中最大手牌的大小，哪个玩家最大手牌的点数最大就获胜，点数一样的情况下，按照花色黑红梅方的顺序判定大小，最后打印出两名玩家的手牌。
-						</p>
+						<p>项目源数据是两个文件，一个是视频表，字段有视频的ID标识、视频上传者、视频的类别、视频的观看数、
+							视频流量和视频相关视频的ID等。另一个表为用户表，字段有上传者的用户名，上传的视频数等。
+							先使用MapReduce对视频表中的数据进行清洗，剔除不合要求的数据。再根据不同的需求，通过Hive， 使用Hive
+							sql统计出各种TopN数据。</p>
+						<h3 id="3">
+							<a href="/project/2018/02/youtube" class="headerlink"
+								target="_blank">项目源码</a>
+						</h3>
 					</div>
-
 				</article>
 			</div>
 		</section>
 		<footer>
 			<div class="paginator">
-				<a href="/project/2018/01/纸牌比大小游戏/"
-					class="next">NEXT</a>
+				<a href="/project/2018/01/纸牌比大小游戏/" class="next">NEXT</a>
 				<div class="copyright">
 					<p>
 						© 2018 - project <a href="https://Larry-Arun.github.io/resume/"
