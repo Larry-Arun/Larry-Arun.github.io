@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="X-UA-Compatible" content="IE=edge">
-<title>纸牌比大小游戏</title>
+<title>Spark Streaming实时流处理日志项目</title>
 <meta name="description" content="一个Flex布局的实例 - Mia Wang">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="short icon" href="/favicon.png">
@@ -35,29 +35,54 @@
 		<section class="container">
 			<div class="post">
 				<article class="post-block">
-					<h1 class="post-title">纸牌比大小游戏</h1>
+					<h1 class="post-title">Spark Streaming实时流处理日志项目</h1>
 					<p>May 18, 2018</p>
 					<div class="post-content">
 						<a id="more"></a>
 						<h3 id="1-属性简介">
 							<a href="#1-属性简介" class="headerlink" title="1.属性简介"></a>开发环境
 						</h3>
-						<p>eclipse+jdk</p>
+						<p>IDEA+maven+JDK+linux</p>
+						<h3 id="1-属性简介">
+							<a href="#1-属性简介" class="headerlink" title="1.属性简介"></a>系统架构
+						</h3>
+						<p>hadoop+zookeeper+flume+ kafka+ spark+hbase</p>
+						<h3 id="1-属性简介">
+							<a href="#1-属性简介" class="headerlink" title="1.属性简介"></a>需求描述
+						</h3>
+						<p>实时（到现在为止）的日志访问统计操作</p>
 						<h3 id="2-一个实例">
 							<a href="#2-一个实例" class="headerlink" title="2.一个实例"></a>项目描述
 						</h3>
-						<p>
-							先创建一副扑克牌，遍历这副扑克牌将每张牌的花色和大小打印出来，然后对这幅扑克牌进行洗牌，再创建两个玩家，由用户输入玩家ID和姓名。每个玩家发两张牌，比较两个玩家手中最大手牌的大小，哪个玩家最大手牌的点数最大就获胜，点数一样的情况下，按照花色黑红梅方的顺序判定大小，最后打印出两名玩家的手牌。
-						</p>
+						<p>项目数据来源的日志为Python脚本产生的，通过crontab定时执行Python脚本模仿服务器日志的产生，
+							日志包括ip、time、url、status、referer。然后使用flume采集产生的日志数据
+							并sink到Kafka消息队列中，然后将日志信息传给Spark Streaming进行实时数据处理。
+							最后将计算结果写入到Hbase上。</p>
+						<h3 id="2-一个实例">
+							<a href="#2-一个实例" class="headerlink" title="2.一个实例"></a>项目步骤
+						</h3>
+						<ul>
+							<li>通过Python脚本模仿日志的产生；</li>
+							<li>Flume的选型，在本例中设为exec-memory-kafka；</li>
+							<li>打开kafka一个消费者，再启动flume读取日志生成器中的log文件，可看到
+								kafka中成功读取到日志产生器的实时数据 ；</li>
+							<li>让Kafka接收到的数据传输到Spark Streaming当中，这样就可以在Spark对
+								实时接收到的数据进行操作了 ；</li>
+							<li>Spark中对实时数据的操作分为数据清洗过程、统计功能实现过程两个步骤。 其中统计功能的实现基本上和Spark
+								SQL中的操作一致，体现了Spark的代码复 用性，即能通用于多个框架中 ；</li>
+							<li>计算结果写入到Hbase。</li>
+						</ul>
+						<h3 id="3">
+							<a href="https://github.com/Larry-Arun/Spark-Streaming"
+								class="headerlink" target="_blank">项目源码</a>
+						</h3>
 					</div>
-
 				</article>
 			</div>
 		</section>
 		<footer>
 			<div class="paginator">
-				<a href="/project/2018/02/某视频网站运营指标分析项目/"
-					class="next">NEXT</a>
+				<a href="/project/2018/02/某视频网站运营指标分析项目/" class="next">NEXT</a>
 				<div class="copyright">
 					<p>
 						© 2018 - project <a href="https://Larry-Arun.github.io/resume/"
