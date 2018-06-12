@@ -34,6 +34,31 @@
 		</header>
 		<section class="container">
 			<ul class="home post-list">
+			<li class="post-list-item"><article class="post-block">
+						<h2 class="post-title">
+							<a href="/project/2018/04/HBase项目-微博系统/"
+								class="post-title-link">HBase项目-微博系统</a>
+						</h2>
+						<div class="post-info">May 28, 2018</div>
+						<div class="post-content">
+							<p>需求描述</p>
+							<ul>
+								<li>用户发布微博内容。</li>
+								<li>用户社交体现：关注用户，取关用户。</li>
+								<li>拉取关注的人的微博内容。</li>
+							</ul>
+							<p>项目描述</p>
+							<ul>
+								<li>微博系统包括三张表，一张是微博内容表（RowKey：用户ID_时间；Family：info；column：content；value:微博内容String），
+								一张是用户关系表（RowKey：用户ID；Family：attends,fans；column：用户ID；value：用户ID；），
+								一张是收件箱表（RowKey：用户ID；Family：info；column：用户ID；value：微博内容的RowKey)。
+								当用户发布微博内容时，我们在微博内容表中添加相应的行。当有用户添加关注用户时，我们在该用户的用户关系表列簇（attends）中添加相应列，
+								在被关注用户的用户关系表列簇（fans）中添加相应列，在收件箱表中添加相应列。收件箱表存放着每个用户及其关注用户的微博内容的RowKey，
+								收件箱表对所关注用户多个微博内容采用的是版本号的方法。当用户的关注用户发表微博内容时，在此用户的收件箱表中添加相应的版本号。</li>
+							</ul>
+						</div>
+						<a href="/project/2018/04/HBase项目-微博系统/" class="read-more">more...</a>
+					</article></li>
 				<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
 							<a href="/project/2018/03/Spark Streaming实时流处理日志项目/"
