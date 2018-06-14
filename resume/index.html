@@ -35,6 +35,35 @@
 						<li>
 							<dl>
 								<dd>
+									2018.6<span>尚学堂</span>
+								</dd>
+								<dt>
+									<span class="circle"></span>手机通信话单分析项目
+								</dt>
+								<dd>
+									<span class="key-point">IDEA</span> <span class="key-point">maven</span>
+									<span class="key-point">hadoop</span> <span class="key-point">zookeeper</span>
+									<span class="key-point">flume</span> <span class="key-point">kafka</span>
+									<span class="key-point">hbase</span>
+								</dd>
+								<dd>
+									<ul>
+										<li>通过Python脚本模仿日志的产生</li>
+										<li>Flume的选型，在本例中设为exec-memory-kafka</li>
+										<li>打开kafka一个消费者，再启动flume读取日志生成器中的log文件， 可看到
+											kafka中成功读取到日志产生器的实时数据</li>
+										<li>让Kafka接收到的数据传输到Spark Streaming当中，这样就可以在Spark对
+											实时接收到的数据进行操作了</li>
+										<li>Spark中对实时数据的操作分为数据清洗过程、统计功能实现过程两个步骤。
+											其中统计功能的实现基本上和Spark SQL中的操作一致，体现了Spark的代码复 用性，即能通用于多个框架中</li>
+										<li>计算结果写入到Hbase</li>
+									</ul>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dd>
 									2018.5<span>慕课网</span>
 								</dd>
 								<dt>
@@ -115,6 +144,7 @@
 								</dd>
 							</dl>
 						</li>
+
 					</ul>
 				</section>
 			</article>
@@ -126,7 +156,7 @@
 							<div class="edu-placeholder"></div>
 						</li>
 						<li><span class="edu-year">2017.12</span><span
-							class="edu-circle circle"></span><span class="edu-title">自学</span></li>
+							class="edu-circle circle"></span><span class="edu-title">培训</span></li>
 						<li class="edu-content">大数据</li>
 						<li>
 							<div class="edu-placeholder"></div>
