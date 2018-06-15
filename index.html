@@ -34,6 +34,27 @@
 		</header>
 		<section class="container">
 			<ul class="home post-list">
+			<li class="post-list-item"><article class="post-block">
+						<h2 class="post-title">
+							<a href="/project/2018/05/手机通信话单分析项目/" class="post-title-link">手机通信话单分析项目</a>
+						</h2>
+						<div class="post-info">June 8, 2018</div>
+						<div class="post-content">
+							<p>需求描述</p>
+							<ul>
+								<li>通信运营商每时每刻会产生大量的通信数据，需要定时定期的对已有数据进行离线的分析处理。例如，当日话单，
+							月度话单，季度话单，年度话单，通话次数，通话总时长等等。项目需求就是要满足用户对通信话单的查询和展示。</li>
+							</ul>
+							<p>项目描述</p>
+							<ul>
+								<li>项目一共分为三块，第一部分为数据生产，在这部分要清楚项目数据的结构和内容，预判可能出现的问题并进行数据清洗，
+							将数据写入到日志文件中；第二部分是将生产的数据落地到HBase中，首先是用Flume监控日志文件，
+							采集实时产生的数据到kafka集群，再调用Kafka和HBase的API，将数据写入到HBase中。
+							第三部分是对HBase中采集到的数据进行分析，统计出我们想要的结果，将统计结果写入到MySQL中让用户查询。</li>
+							</ul>
+						</div>
+						<a href="/project/2018/05/手机通信话单分析项目/" class="read-more">more...</a>
+					</article></li>
 				<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
 							<a href="/project/2018/04/HBase项目-微博系统/" class="post-title-link">HBase项目-微博系统</a>
