@@ -54,20 +54,20 @@
 										<li>c) 创建随机生成通话建立时间的方法，产出date_time 字段数据；</li>
 										<li>d) 随机一个通话时长，单位：秒，产出 duration 字段数据；</li>
 										<li>e) 将产出的一条数据拼接封装到一个字符串中；</li>
-										<li>f)、将通话数据写入到本地文件中；</li>
+										<li>f) 将通话数据写入到本地文件中；</li>
 									</ul>
 									<span class="circle"></span>数据消费：
 									<ul>
-										<li>a) 编写 kafka 消费者，读取 kafka 集群中缓存的消息，并打印 到控制台以观察是否成功；</li>
-										<li>b)编写调用 HBaseAPI 相关方法，将从 Kafka 中读 取出来的数据写入到 HBase ；</li>
+										<li>a) 编写 kafka消费者，读取 kafka集群中缓存的消息，并打印到控制台以观察是否成功；</li>
+										<li>b)编写调用 HBaseAPI相关方法，将从 Kafka中读取出来的数据写入到 HBase ；</li>
 									</ul>
 									<span class="circle"></span>数据分析：
 									<ul>
 										<li>a) 按照时间维度来统计通话，比如统计 2017 年所有月份所有日子的通话记录，
 											那这个维度我们大概可以表述为 2017 年*月*日。</li>
-										<li>b) 通过 Mapper 将数据按照不同维度聚合给Reducer。</li>
-										<li>c) 通过 Reducer 拿到按照各个维 度聚合过来的数据，进行汇总，输出。</li>
-										<li>d) 根据业务需求， 将Reducer 的输出通 过 Outputformat 把数据输出到MySQL中。</li>
+										<li>b) 通过 Mapper将数据按照不同维度聚合给Reducer。</li>
+										<li>c) 通过 Reducer拿到按照各个维度聚合过来的数据，进行汇总，输出。</li>
+										<li>d) 根据业务需求，将Reducer的输出通过 Outputformat把数据输出到MySQL中。</li>
 									</ul>
 								</dd>
 							</dl>
