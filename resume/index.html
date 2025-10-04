@@ -14,7 +14,7 @@
 		<main> <header>
 			<section class="title">
 				<h1>李宜润</h1>
-				<p>大数据开发工程师</p>
+				<p>Golang区块链后端开发工程师</p>
 			</section>
 			<address>
 				<ul class="contact">
@@ -34,97 +34,95 @@
 					<ul>
 						<li>
 							<dl>
-								<dd>
-									2018.6<span>个人demo</span>
-								</dd>
 								<dt>
-									<span class="circle"></span>手机通信话单分析项目
+									<span class="circle"></span>中心化交易所-CEX
 								</dt>
 								<dd>
-									<span class="key-point">IDEA</span> <span class="key-point">maven</span>
-									<span class="key-point">hadoop</span> <span class="key-point">zookeeper</span>
-									<span class="key-point">flume</span> <span class="key-point">kafka</span>
-									<span class="key-point">hbase</span>
+									<span class="key-point">Go</span> <span class="key-point">go-zero</span>
+									<span class="key-point">Gin</span> <span class="key-point">gRPC</span>
+									<span class="key-point">GORM</span> <span class="key-point">kafka</span>
+									<span class="key-point">Redis</span>
 								</dd>
 								<dd>
-									<span class="circle"></span>数据生产：
 									<ul>
-										<li>a) 创建 Java 集合类存放模拟的电话号码和联系人；
-										<li>b) 随机选取两个 手机号码当做“主叫”与“被叫”，产出 call1 与 call2 字段数据；</li>
-										<li>c) 创建随机生成通话建立时间的方法，产出date_time 字段数据；</li>
-										<li>d) 随机一个通话时长，单位：秒，产出 duration 字段数据；</li>
-										<li>e) 将产出的一条数据拼接封装到一个字符串中；</li>
-										<li>f) 将通话数据写入到本地文件中；</li>
-									</ul>
-									<span class="circle"></span>数据消费：
-									<ul>
-										<li>a) 编写 kafka消费者，读取 kafka集群中缓存的消息，并打印到控制台以观察是否成功；</li>
-										<li>b)编写调用 HBaseAPI相关方法，将从 Kafka中读取出来的数据写入到 HBase ；</li>
-									</ul>
-									<span class="circle"></span>数据分析：
-									<ul>
-										<li>a) 按照时间维度来统计通话，比如统计 2017 年所有月份所有日子的通话记录，
-											那这个维度我们大概可以表述为 2017 年*月*日。</li>
-										<li>b) 通过 Mapper将数据按照不同维度聚合给Reducer。</li>
-										<li>c) 通过 Reducer拿到按照各个维度聚合过来的数据，进行汇总，输出。</li>
-										<li>d) 根据业务需求，将Reducer的输出通过 Outputformat把数据输出到MySQL中。</li>
+										<li>1.参与WebSocket 实时推送、撮合引擎、Kafka 消息队列、订单管理等关键模块开发。</li>
+										<li>2.基于 Go-zero 微服务架构 实现模块化、高并发、可扩展系统。</li>
+										<li>3.使用 Kafka 实现订单状态变更、交易通知、风控事件等异步消息流转。 </li>
+										<li>4.数据存储分层设计：MySQL 存储账户与交易记录，MongoDB 存储 K 线与汇率数据，Redis 缓存热点数据。</li>
+										<li>5.使用 Socket.IO 推送实时行情、买卖盘、K 线更新至前端，延迟 < 200ms。 </li>
+										<li>6.性能优化：通过 pprof 分析瓶颈，优化数据库查询与 goroutine 泄漏。</li>
+										<li>7.交易对撮合按pod分片，单pod（1核）撮合峰值为5000笔/秒，撮合延迟在亚毫秒级，端到端延迟大部分控制在200ms内，P95控制在300ms内，P99在500ms内。</li>
 									</ul>
 								</dd>
 							</dl>
 						</li>
 						<li>
 							<dl>
-								<dd>
-									2018.5<span>个人demo</span>
-								</dd>
 								<dt>
-									<span class="circle"></span>Spark Streaming实时流处理日志项目
+									<span class="circle"></span>C2N-LaunchPad    
 								</dt>
 								<dd>
-									<span class="key-point">IDEA</span> <span class="key-point">maven</span>
-									<span class="key-point">hadoop</span> <span class="key-point">zookeeper</span>
-									<span class="key-point">flume</span> <span class="key-point">kafka</span>
-									<span class="key-point">Spark</span> <span class="key-point">hbase</span>
+									<span class="key-point">go-ethereum</span> <span class="key-point">Hardhat </span>
+									<span class="key-point">OpenZeppelin </span>
 								</dd>
 								<dd>
 									<ul>
-										<li>通过Python脚本模仿日志的产生</li>
-										<li>Flume的选型，在本例中设为exec-memory-kafka</li>
-										<li>打开kafka一个消费者，再启动flume读取日志生成器中的log文件， 可看到
-											kafka中成功读取到日志产生器的实时数据</li>
-										<li>让Kafka接收到的数据传输到Spark Streaming当中，这样就可以在Spark对
-											实时接收到的数据进行操作了</li>
-										<li>Spark中对实时数据的操作分为数据清洗过程、统计功能实现过程两个步骤。
-											其中统计功能的实现基本上和Spark SQL中的操作一致，体现了Spark的代码复 用性，即能通用于多个框架中</li>
-										<li>计算结果写入到Hbase</li>
+										<li>1.二次开发 PancakeSwap MasterChef 合约，实现支持多代币的质押收益农场(Farming)。 </li>
+										<li>2.集成OpenZeppelin 5 实现 ERC20 代币与空投合约。  </li>
+										<li>3.基于 工厂模式实现Sales销售协议的开发，实现了销售方案的链上管理，用户购买代币，销售方发行代币、支持管理员线下加签的ICO模式。</li>
+										<li>4.实现分配质押协议，支持用户质押代币并领取收益。  </li>
+										<li>5.使用 Hardhat + Node.js 完成farming和airdrop合约部署。</li>
+										<li>6.使用 Chai + Mocha 编写单元测试，代码覆盖率 > 90%。  </li>
+										<li>7.使用 Gas Reporter 优化关键函数 Gas 消耗，降低用户交易成本。</li>
 									</ul>
 								</dd>
 							</dl>
 						</li>
 						<li>
 							<dl>
-								<dd>
-									2018.5<span>个人demo</span>
-								</dd>
 								<dt>
-									<span class="circle"></span>HBase项目-微博系统
+									<span class="circle"></span>NFT交易市场
 								</dt>
 								<dd>
-									<span class="key-point">IDEA</span> <span class="key-point">maven</span>
-									<span class="key-point">hadoop</span> <span class="key-point">zookeeper</span>
-									<span class="key-point">hbase</span>
+									<ul>
+										<li>1.设计并开发 NFT 合约（ERC721/ERC1155），确保合约功能符合市场需求；  </li>
+										<li>2.使用 IPFS 实现 NFT 元数据存储，并提供元数据管理功能。  </li>
+										<li>3.使用go-ethereum 监听链上事件(铸造、转让、拍卖)，同步至中心化数据库，提升查询性能。  </li>
+										<li>4.项目使用 Firebase 部署，合约通过 Alchemy 部署。  </li>
+									</ul>
 								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<span class="circle"></span>音视频会议系统
+								</dt>
 								<dd>
 									<ul>
-										<li>创建命名空间以及表名的定义；</li>
-										<li>创建微博内容表；</li>
-										<li>创建用户关系表；</li>
-										<li>创建用户微博内容接收邮件箱表；</li>
-										<li>发布微博内容 ；</li>
-										<li>添加关注用户；</li>
-										<li>移除（取关）用户 ；</li>
-										<li>获取关注的人的微博内容；</li>
-										<li>测试。</li>
+										<li>1.深度参与会议系统服务端的整体架构设计与开发，实现多端实时通信功能。</li>
+										<li>2.负责客户端sdk的开发，保证各端客户端正常入会并进行实时音视频通信；</li>
+										<li>3.负责服务端多 SFU 节点级联转发，支持跨地域低延迟通信；</li>
+										<li>4.支持 RTSP 摄像头接入，使用 FFmpeg 转码 H265 → H264，推流至 WebRTC。</li>
+										<li>5.开发会议管理平台，支持权限控制、会议监控、丢包告警；</li>
+										<li>6.搭建 Prometheus + Grafana 监控体系，实时展示会议人数、网络质量、设备状态；  </li>
+									</ul>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<span class="circle"></span>H3C行业建模引擎
+								</dt>
+								<dd>
+									<ul>
+										<li>1.负责ES元数据和文档的上传、更新和删除接口的开发工作；</li>
+										<li>2.负责将sql解析成的condition转化为ES的querystring； </li>
+										<li>3.负责Kafka发送者和消费者的开发、项目安装部署脚本的开发等工作； </li>
+										<li>4.参与系统主备集群的离线数据同步工作，采用本地消息表保证消息不丢失；</li>
+										<li>5.参与任务调度的web后端开发，负责内置作业及内置工作流的维护工作；  </li>
+										<li>6.参与开发及维护H3C行业建模引擎数据源模块（DataSource）的功能。</li>
 									</ul>
 								</dd>
 							</dl>
@@ -166,25 +164,25 @@
 				<section class="skill">
 					<h2>教育及工作经历</h2>
 					<ul>
-						<li><span class="edu-year">2018.08</span><span
+						<li><span class="edu-year">2024.04-至今</span><span
 							class="edu-circle circle"></span><span class="edu-title">新华三大数据技术有限公司</span></li>
-						<li class="edu-content">大数据开发工程师</li>
+						<li class="edu-content">后端开发工程师</li>
+						<li><span class="edu-year">2019.11-2024.03</span><span
+							class="edu-circle circle"></span><span class="edu-title">新华三大数据技术有限公司</span></li>
+						<li class="edu-content">后端开发工程师</li>
+						<li><span class="edu-year">2017.07-2019.10</span><span
+							class="edu-circle circle"></span><span class="edu-title">新华三大数据技术有限公司</span></li>
+						<li class="edu-content">后端开发工程师</li>
 						<li>
 							<div class="edu-placeholder"></div>
 						</li>
-						<li><span class="edu-year">2017.07</span><span
-							class="edu-circle circle"></span><span class="edu-title">华图教育</span></li>
-						<li class="edu-content">大数据开发工程师</li>
-						<li>
-							<div class="edu-placeholder"></div>
-						</li>
-						<li><span class="edu-year">2014.09</span><span
+						<li><span class="edu-year">2014.09-2017.06</span><span
 							class="edu-circle circle"></span><span class="edu-title">硕士</span></li>
 						<li class="edu-content">中国石油大学(北京) 地质资源与地质工程</li>
 						<li>
 							<div class="edu-placeholder"></div>
 						</li>
-						<li><span class="edu-year">2010.09</span><span
+						<li><span class="edu-year">2010.09-2014.06</span><span
 							class="edu-circle circle"></span><span class="edu-title">本科</span></li>
 						<li class="edu-content">长江大学 地质学</li>
 					</ul>
@@ -192,52 +190,72 @@
 				<section class="skill">
 					<h2>工作技能</h2>
 					<dl class="skill-item">
-						<dt>大数据</dt>
+						<dt>web3</dt>
 						<dd>
-							理解<strong>hdfs</strong>分布式文件系统存储结构和高可用原理
+							熟练掌握<strong>Solidity</strong>开发语言，熟练使用 Remix、Hardhat、Foundry 进行测试与部署
 						</dd>
 						<dd>
-							熟悉<strong>Zookeeper</strong>分布式服务框架，理解<strong>HA</strong> 高可用集群
+							熟悉<strong>EVM</strong>原理 与常见安全漏洞（重入、整型溢出、权限控制），具备实战防范经验
 						</dd>
 						<dd>
-							掌握<strong>mapreduce</strong>计算框架编程，对<strong>yarn</strong>的资源调度，作业监控有一定认识
+							熟悉<strong>Uniswap V2/V3</strong>源码，理解 CPMM/CSMM 做市算法、价格预言机机制
 						</dd>
 						<dd>
-							熟悉<strong>hive</strong>数据仓库工具及HQL的书写，能对日志数据进行查询，统计等数据操作
+							熟练实现 ERC20/ERC721/ERC1155 代币标准，具备空投、质押、流动性挖矿等协议开发经验
 						</dd>
 						<dd>
-							熟悉<strong>linux</strong>系统，了解常用的linux的<strong>shell</strong>命令，能在linux系统下搭建开发环境
-						</dd>
-						<dd>理解面向对象设计思想，熟练使用Java编程语言</dd>
-						<dd>
-							熟悉<strong>kafka</strong>、<strong>flume</strong>数据采集工具的使用，实现流式数据的过滤和分析
-						</dd>
-						<dd>
-							理解<strong>Hbase</strong>的存储原理，Hbase存储架构，实现数据的毫秒检索
-						</dd>
-						<dd>
-							了解<strong>Spark</strong>相关组件，了解<strong>Storm</strong>运行流程
-						</dd>
-						<dd>
-							熟悉<strong>Python</strong>、<strong>Scala</strong>语言编程，能运用Scala进行spark
-							RDD，spark streaming编程
+							熟练使用<strong> go-ethereum </strong>与链交互，监听事件、签名交易、解析日志
 						</dd>
 					</dl>
 					<dl class="skill-item">
-						<dt>其他技能</dt>
+						<dt>web2</dt>
 						<dd>
-							英语通过<strong>CET6</strong>，能够流畅阅读英文文档。具备良好的文档写作能力
+							熟练掌握 Go 语言及运行时机制，深入理解 goroutine、channel、调度器、GC
+						</dd>
+						<dd>熟练使用 go-zero、Gin、gRPC、GORM 构建高性能微服务系统</dd>
+						<dd>
+							熟练使用 pprof、trace 进行 CPU、内存、goroutine 性能分析与调优
+						</dd>
+						<dd>
+							熟悉 MySQL（InnoDB） 事务、锁、MVCC、索引优化、分库分表；掌握 SQL 调优
+						</dd>
+						<dd>
+							熟练使用 Redis（数据结构、持久化、过期策略），构建缓存与分布式锁
+						</dd>
+						<dd>
+							熟悉 Kafka、NATS、ZooKeeper 等消息中间件，实现异步解耦与事件驱动
+						</dd>
+						<dd>
+							熟练使用Java语言，熟练使用Spring、MyBatis、Spring Boot等主流Java开发框架
+						</dd>
+						<dd>
+							熟悉常用设计模式（工厂、单例、代理、状态、模板方法）并应用于实际项目
+						</dd>
+						<dd>
+							掌握linux操作系统、Docker+Docker Compose、Jenkins的使用
+						</dd>
+						<dd>
+							掌握基本的网络知识和音视频知识，熟悉WebRTC的使用和基本原理
 						</dd>
 					</dl>
 				</section>
 
 				<section class="self-evaluation">
+					<h2>专利</h2>
+					<dl class="skill-item">
+						<dd>会议投票方法、电子设备及存储介质（CN202311810745.X）｜ 第四发明人</dd>
+						<dd>画面同步显示方法及终端设备（CN202311787328.8）｜ 第二发明人</dd>
+						<dd>视频会议方法、会议终端、服务器、系统及存储介质（CN202310481571.0）｜ 第三发明人</dd>
+					</dl>
+				</section>
+				<section class="self-evaluation">
 					<h2>自我评价</h2>
 					<dl class="skill-item">
-						<dd>乐于沟通，能快速融入团队，具备团队合作精神</dd>
-						<dd>逻辑思维能力强，思路清楚，学习能力强，对新技术有着强烈的好奇心</dd>
-						<dd>对工作尽职尽责，乐于从事有挑战性的工作</dd>
-						<dd>具有良好的英语阅读能力，能阅读英文资料、技术文档等</dd>
+						<dd>热爱 Web3 技术，对 DeFi、DAO、NFT 有深刻理解与实战经验</dd>
+						<dd>逻辑清晰，学习能力强，能快速掌握新技术并应用于项目</dd>
+						<dd>注重代码质量与系统稳定性，具备良好的工程素养</dd>
+						<dd>良好的沟通能力与团队协作精神，乐于分享与技术交流</dd>
+						<dd>英语良好，可流畅阅读英文技术文档与社区资料</dd>
 					</dl>
 				</section>
 
@@ -245,7 +263,7 @@
 		</article>
 		</main>
 		<footer>
-			© 2018 李宜润; <a href="pdf/LiYirun_BigDataEngineer.pdf" target="_blank">
+			© 2025 李宜润; <a href="pdf/LiYirun_Golang_Backend.pdf" target="_blank">
 				Download PDF version</a>
 		</footer>
 	</div>
