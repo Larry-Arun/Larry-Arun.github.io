@@ -95,7 +95,7 @@ h2 {
 
 .edu-year {
     width: 5.8em;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .edu-content {
