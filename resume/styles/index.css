@@ -193,6 +193,10 @@ h2 {
 
 /* css for skill */
 
+.skill-item {
+    width: max-content;
+}
+
 .skill-item dd {
     margin-left: 0;
 }
