@@ -36,110 +36,134 @@
 			<ul class="home post-list">
 			<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
-							<a href="/project/2018/05/手机通信话单分析项目/" class="post-title-link">手机通信话单分析项目</a>
+							<a href="/" class="post-title-link">中心化交易所-CEX</a>
 						</h2>
-						<div class="post-info">June 8, 2018</div>
+						<!-- <div class="post-info">June 8, 2018</div> -->
 						<div class="post-content">
-							<p>需求描述</p>
-							<ul>
-								<li>通信运营商每时每刻会产生大量的通信数据，需要定时定期的对已有数据进行离线的分析处理。例如，当日话单，
-							月度话单，季度话单，年度话单，通话次数，通话总时长等等。项目需求就是要满足用户对通信话单的查询和展示。</li>
-							</ul>
 							<p>项目描述</p>
 							<ul>
-								<li>项目一共分为三块，第一部分为数据生产，在这部分要清楚项目数据的结构和内容，预判可能出现的问题并进行数据清洗，
-							将数据写入到日志文件中；第二部分是将生产的数据落地到HBase中，首先是用Flume监控日志文件，
-							采集实时产生的数据到kafka集群，再调用Kafka和HBase的API，将数据写入到HBase中。
-							第三部分是对HBase中采集到的数据进行分析，统计出我们想要的结果，将统计结果写入到MySQL中让用户查询。</li>
+								<li>该系统旨在为用户提供便捷、安全的数字资产交易服务，支持币币交易、场外交易、实时行情展示、充值提现等丰富的交易功能，
+									同时满足大规模用户访问和操作需求。项目采用go-zero搭建微服务框架，通过自研撮合引擎实现毫秒级交易匹配，
+									使用Kafka实现高吞吐量的消息传递，WebSocket 提供实时数据推送。在开发过程中，重点解决了高并发订单处理、
+									交易撮合算法优化、数据一致性保证、系统容错等技术难点，确保了交易系统的稳定性和高性能。项目成功实现了实时撮合、
+									订单管理、行情推送等核心功能，为后续的商业化部署奠定了坚实的技术基础。</li>
+							</ul>
+							<p>个人职责</p>
+							<ul>
+								<li>1.参与行情服务WebSocket 实时推送、订单管理、撮合引擎等关键模块开发。 </li>
+								<li>2.基于 Go-zero 微服务架构 实现模块化、高并发、可扩展系统。 </li>
+								<li>3.使用 Kafka 实现订单、交易、盘口数据的异步处理。 </li>
+								<li>4.使用TreeMap实现价格排序，基于订单簙数据计算买卖盘深度信息，并生成深度图。 </li>
+								<li>5.开发定时推送任务，使用WebSocket实现500ms间隔的行情数据推送。</li>
+								<li>6.开发订单创建、查询、取消、完成及订单状态流转等核心业务逻辑。</li>
+								<li>7.交易对撮合按pod分片，单pod撮合峰值为5000笔/秒，撮合延迟在亚毫秒级，端到端延迟大部分控制在200ms内，P95控制在300ms内，P99在500ms内。 </li>
 							</ul>
 						</div>
-						<a href="/project/2018/05/手机通信话单分析项目/" class="read-more">more...</a>
+						<!-- <a href="/project/2018/05/手机通信话单分析项目/" class="read-more">more...</a> -->
 					</article></li>
 				<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
-							<a href="/project/2018/04/HBase项目-微博系统/" class="post-title-link">HBase项目-微博系统</a>
+							<a href="/" class="post-title-link">C2N-LaunchPad</a>
 						</h2>
-						<div class="post-info">May 28, 2018</div>
+						<!-- <div class="post-info">May 28, 2018</div> -->
 						<div class="post-content">
-							<p>需求描述</p>
-							<ul>
-								<li>用户发布微博内容。</li>
-								<li>用户社交体现：关注用户，取关用户。</li>
-								<li>拉取关注的人的微博内容。</li>
-							</ul>
 							<p>项目描述</p>
 							<ul>
-								<li>微博系统包括三张表，一张是微博内容表（RowKey：用户ID_时间；Family：info；column：content；value:微博内容String），
-									一张是用户关系表（RowKey：用户ID；Family：attends,fans；column：用户ID；value：用户ID；），
-									一张是收件箱表（RowKey：用户ID；Family：info；column：用户ID；value：微博内容的RowKey)。
-									当用户发布微博内容时，我们在微博内容表中添加相应的行。当有用户添加关注用户时，我们在该用户的用户关系表列簇（attends）中添加相应列，
-									在被关注用户的用户关系表列簇（fans）中添加相应列，在收件箱表中添加相应列。收件箱表存放着每个用户及其关注用户的微博内容的RowKey，
-									收件箱表对所关注用户多个微博内容采用的是版本号的方法。当用户的关注用户发表微博内容时，在此用户的收件箱表中添加相应的版本号。</li>
+								<li>C2N-Launchpad 是一个区块链上的一个去中心化发行平台，专注于启动和支持新项目。
+									它提供了一个平台，允许新的和现有的项目通过代币销售为自己筹集资金，
+									同时也为投资者提供了一个参与初期项目投资的机会。用户质押平台币，
+									获得参与项目 IDO的购买权重，后端配置项目信息并操作智能合约生成新的 Sale ，
+									用户在Sale 开始之后进行购买，项目结束后，用户进行 claim，
+									项目涉及 Farm (质押挖矿，流动性挖矿)与 Sale (项目 IDO)。</li>
+							</ul>
+							<p>个人职责</p>
+							<ul>
+								<li>IDO模块 </li>
+								<li>1.使用 go-ethereum 监听合约事件，自动同步项目信息至后台数据库。 </li>
+								<li>2.在售卖报名和售卖参与流程中使用 go-ethereum在后台用私钥进行加密解密，身份验证，签名（涉及EIP-191)，实现管理员签名，保障流程的安全性。</li>
+								<li>Farming模块 </li>
+								<li>1.负责实现支持多代币的质押收益农场(Farming)。</li>
+								<li>2.集成OpenZeppelin 5 实现 ERC20 代币与空投合约。</li>
+								<li>3.基于 工厂模式实现Sales销售协议的开发，实现了销售方案的链上管理，用户购买代币，销售方发行代币、支持管理员线下加签的ICO模式。</li>
+								<li>4.实现分配质押协议，支持用户质押代币并领取收益。 </li>
+								<li>5.使用 Hardhat + Node.js 完成farming和airdrop合约部署。</li>
+								<li>6.使用 Chai + Mocha 编写单元测试，代码覆盖率 > 90%。 </li>
+								<li>7.使用 Gas Reporter 优化关键函数 Gas 消耗，降低用户交易成本。 </li>
 							</ul>
 						</div>
-						<a href="/project/2018/04/HBase项目-微博系统/" class="read-more">more...</a>
+						<!-- <a href="/project/2018/04/HBase项目-微博系统/" class="read-more">more...</a> -->
 					</article></li>
 				<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
-							<a href="/project/2018/03/Spark Streaming实时流处理日志项目/"
-								class="post-title-link"> Spark Streaming实时流处理日志项目</a>
+							<a href="/"
+								class="post-title-link">NFT交易市场</a>
 						</h2>
-						<div class="post-info">May 18, 2018</div>
+						<!-- <div class="post-info">May 18, 2018</div> -->
 						<div class="post-content">
-							<p>需求描述</p>
+							<p>个人职责</p>
 							<ul>
-								<li>实现实时（到现在为止）的日志访问统计操作。</li>
-							</ul>
-							<p>项目描述</p>
-							<ul>
-								<li>项目数据来源的日志为Python脚本产生的，通过crontab定时执行Python脚本模仿服务器日志的产生，
-									日志包括ip、time、url、status、referer信息。然后使用flume采集产生的日志数据并sink到
-									Kafka消息队列中，然后将日志信息传给Spark Streaming进行实时数据处理。最后将计算结果写入 到hbase上。</li>
+								<li>1.设计并开发 NFT 合约（ERC721/ERC1155），确保合约功能符合市场需求； </li>
+								<li>2.使用 IPFS 实现 NFT 元数据存储，并提供元数据管理功能。 </li>
+								<li>3.使用go-ethereum 监听链上事件(铸造、转让、拍卖)，同步至中心化数据库，提升查询性能。 </li>
+								<li>4.项目使用 Firebase 部署，合约通过 Alchemy 部署。</li>
 							</ul>
 						</div>
-						<a href="/project/2018/03/Spark Streaming实时流处理日志项目/"
-							class="read-more">more...</a>
+						<!-- <a href="/project/2018/03/Spark Streaming实时流处理日志项目/"
+							class="read-more">more...</a> -->
 					</article></li>
 				<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
-							<a href="/project/2018/02/某视频网站运营指标分析项目/" class="post-title-link">Hive项目-某视频网站运营指标分析</a>
+							<a href="/" class="post-title-link">音视频会议系统</a>
 						</h2>
-						<div class="post-info">May 8, 2018</div>
+						<!-- <div class="post-info">May 8, 2018</div> -->
 						<div class="post-content">
-							<p>需求描述:统计某视频网站的常规指标，各种TopN指标.</p>
+							<p>项目描述</p>
 							<ul>
-								<li>统计视频观看数Top10；视频类别热度Top10；</li>
-								<li>统计视频观看数Top20所属类别包含这Top20视频的个数；</li>
-								<li>统计视频观看数Top50所关联视频的所属类别Rank；</li>
-								<li>统计每个类别中的视频热度Top10；</li>
-								<li>统计每个类别中视频流量Top10；</li>
-								<li>统计上传视频最多的用户Top10以及他们上传的视频；</li>
-								<li>统计每个类别视频观看数Top10。</li>
+								<li>该项目为基于WebRTC技术开发的跨平台一体化音视频会议解决方案，
+									服务集团全球分支机构。会议服务端采用SFU架构，
+									基于开源项目pion开发库套装开发会议服务器。
+									系统实现了实时音视频通信、屏幕共享、电子白板、会议直播、
+									本地录制、会议管控、弹幕、链接入会、监控报警等功能。会议支持多终端接入，
+									管理员可通过会议管理平台进行会议管控、丢包监控等。</li>
+							</ul>
+							<p>个人职责</p>
+							<ul>
+								<li>1.深度参与会议系统服务端的整体架构设计与开发，实现多端实时通信功能。 </li>
+								<li>2.负责客户端sdk的开发，保证各端客户端正常入会并进行实时音视频通信； </li>
+								<li>3.负责服务端多 SFU 节点级联转发，支持跨地域低延迟通信；</li>
+								<li>4.支持 RTSP 摄像头接入，使用 FFmpeg 转码 H265 → H264，推流至 WebRTC。 </li>
+								<li>5.开发会议管理平台，支持权限控制、会议监控、丢包告警； </li>
+								<li>6.搭建 Prometheus + Grafana 监控体系，实时展示会议人数、网络质量、设备状态； </li>
 							</ul>
 						</div>
-						<a href="/project/2018/02/某视频网站运营指标分析项目/" class="read-more">more...</a>
+						<!-- <a href="/project/2018/02/某视频网站运营指标分析项目/" class="read-more">more...</a> -->
 					</article></li>
-					<!--
 					<li class="post-list-item"><article class="post-block">
 						<h2 class="post-title">
-							<a href="/project/2018/01/纸牌比大小游戏/" class="post-title-link">纸牌比大小游戏</a>
+							<a href="/" class="post-title-link">H3C行业建模引擎</a>
 						</h2>
-						<div class="post-info">April 16, 2018</div>
+						<!-- <div class="post-info">April 16, 2018</div> -->
 						<div class="post-content">
-							<h3 id="1-block-vs-inline-vs-inline-block">
-								<a href="#1-block-vs-inline-vs-inline-block" class="headerlink"
-									title="1.block vs inline vs inline-block"></a>
-							</h3>
-							<p>需求描述</p>
+							<p>项目描述</p>
 							<ul>
-								<li>先创建一副扑克牌，遍历这副扑克牌将每张牌的花色和大小打印出来，然后对这幅扑克牌进行洗牌，
-									再创建两个玩家，由用户输入，玩家ID和姓名。每个玩家发两张牌，比较两个玩家手中最大手牌的大小，
-									哪个玩家最大手牌的点数最大就获胜，点数一样的情况下，按照花色黑红梅方的顺序判定大小， 最后输出两名玩家的手牌。</li>
+								<li>H3C行业建模引擎是一套开箱即用的大数据平台，
+									用于采集、存储、处理和分析海量数据。团队负责将原始数据存储在HBase中，
+									通过ES实现Hbase的二级索引功能；并且该Elasticsearch中间件实现了ES的全文检索功能，
+									用户上传元数据和文档之后可以根据相应字段和文档内容进行模糊搜索；
+									另外基于系统对任务调度功能的规划，需要开发一套基于Oozie的轻量级任务管理中间件（workflow）。</li>
+							</ul>
+							<p>个人职责</p>
+							<ul>
+								<li>1.负责ES元数据和文档的上传、更新和删除接口的开发工作；</li>
+								<li>2.负责将sql解析成的condition转化为ES的querystring；</li>
+								<li>3.负责Kafka发送者和消费者的开发、项目安装部署脚本的开发等工作；</li>
+								<li>4.参与系统主备集群的离线数据同步工作，采用本地消息表保证消息不丢失；</li>
+								<li>5.参与任务调度的web后端开发，负责内置作业及内置工作流的维护工作；</li>
+								<li>6.参与开发及维护H3C行业建模引擎数据源模块（DataSource）的功能。 </li>
 							</ul>
 						</div>
-						<a href="/project/2018/01/纸牌比大小游戏/" class="read-more">more...</a>
+						<!-- <a href="/project/2018/01/纸牌比大小游戏/" class="read-more">more...</a> -->
 					</article></li>
-					-->
 			</ul>
 		</section>
 		<footer>
@@ -148,7 +172,7 @@
 			</div>
 			<div class="copyright">
 				<p>
-					© 2018 - project <a href="https://Larry-Arun.github.io/resume/"
+					© 2025 - project <a href="https://Larry-Arun.github.io/resume/"
 						target="_blank">My Resume</a>
 				</p>
 			</div>
